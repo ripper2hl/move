@@ -1,0 +1,21 @@
+{
+  "name": "move",
+  "version": "1.0.0",
+  "description": "El objetivo de esta utilidad es mover archivos XML que se encuentran",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js > move.log 2>&1",
+    "build": "node node_modules/pkg/lib-es5/bin.js package.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Israel Perales",
+  "license": "MIT",
+  "dependencies": {
+    "filehound": "^1.16.2",
+    "graceful-fs": "^4.1.11"
+  },
+  "bin": "index.js",
+  "devDependencies": {
+    "pkg": "^4.3.0-beta.5"
+  }
+}
